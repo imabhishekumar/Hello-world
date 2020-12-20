@@ -6,12 +6,12 @@
 	margin-bottom: -4px;
 }
 
-header{
-	background-color: grey;
-}
-
 h1{
 	padding: 20px;
+}
+
+nav{
+	background-color: grey;
 }
 
 section{
