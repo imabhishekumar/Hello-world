@@ -1,0 +1,81 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Comic Sans MS, Comic Sans;
+	margin-bottom: -4px;
+}
+
+header{
+	background-color: grey;
+}
+
+h1{
+	padding: 20px;
+}
+
+section{
+	background-color: grey;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+#chicken, #beef, #sushi{
+	padding-bottom: 20px;
+	font-size: 1.3em;
+	font-weight: bold;
+
+}
+
+
+.navbar-brand {
+    margin-bottom: 1rem;
+}
+button.navbar-toggler {
+    margin-bottom: 10px;
+}
+
+.navbar-brand{
+	margin-left: 25px;
+	font-weight: bold;
+}
+
+ #navbarSupportedContent{
+	margin-top: 10px;
+}
+
+button.navbar-toggler{
+	margin-right: 30px;
+}
+
+
+
+@media(max-width: 768px){
+
+  .navbar{
+     	margin-left: -10px;
+	    margin-right: -10px;
+	    margin-bottom: -10px;
+    }
+
+   button + div {
+	    background-color: white;
+    }
+
+    ul{
+	    border:2px solid black;
+    }
+}
+
+div p{
+	text-align: left;
+}
+
+nav{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+hr {
+  width: 90%;
+}
